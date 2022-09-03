@@ -1,0 +1,31 @@
+@page
+@using HolaWeb.App.Dominio
+@model HolaWeb.App.Frontend.Pages.Saludos.Lista
+
+@{
+    ViewData["Title"] = "Saludos";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Saludos</title>
+</head>
+<body>
+<div>
+    <h2>Saludos</h2>
+    <table class="table">
+        @foreach (var i in Model.saluditos)
+        {
+            <tr>
+                <td>@i.Español</td>
+                <td>@i.Ingles</td>
+                <td>@i.Frances</td>
+            </tr>
+        }
+        
+    </table>
+</div>
+</body>
+</html>
