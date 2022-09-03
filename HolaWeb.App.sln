@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaWeb.App", "HolaWeb.App\HolaWeb.App.csproj", "{F8C2842C-0098-4A15-9BEA-3F68FF727E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaWeb.App.Dominio", "HolaWeb.App.Dominio\HolaWeb.App.Dominio.csproj", "{C17980D1-AE1A-4F38-8F3D-86230D3E4ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaWeb.App.Persistencia", "HolaWeb.App.Persistencia\HolaWeb.App.Persistencia.csproj", "{29F49D07-284B-4E91-8BB4-291B8FDBF8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaWeb.App.Frontend", "HolaWeb.App.Frontend\HolaWeb.App.Frontend.csproj", "{5A392F65-820C-4929-9B28-AF3A38AC0145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C2842C-0098-4A15-9BEA-3F68FF727E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C2842C-0098-4A15-9BEA-3F68FF727E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C2842C-0098-4A15-9BEA-3F68FF727E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C2842C-0098-4A15-9BEA-3F68FF727E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17980D1-AE1A-4F38-8F3D-86230D3E4ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17980D1-AE1A-4F38-8F3D-86230D3E4ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17980D1-AE1A-4F38-8F3D-86230D3E4ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17980D1-AE1A-4F38-8F3D-86230D3E4ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F49D07-284B-4E91-8BB4-291B8FDBF8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F49D07-284B-4E91-8BB4-291B8FDBF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F49D07-284B-4E91-8BB4-291B8FDBF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F49D07-284B-4E91-8BB4-291B8FDBF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A392F65-820C-4929-9B28-AF3A38AC0145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A392F65-820C-4929-9B28-AF3A38AC0145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A392F65-820C-4929-9B28-AF3A38AC0145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A392F65-820C-4929-9B28-AF3A38AC0145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
